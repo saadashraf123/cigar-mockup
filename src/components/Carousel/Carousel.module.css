@@ -1,0 +1,22 @@
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10%;
+}
+.main-heading {
+  font-size: 70px;
+  color: #ffff;
+}
+.main-heading span {
+  color: #d0ae6f;
+}
+
+.sub-heading {
+  font-size: 15px;
+  color: #ffff;
+  opacity: 0.8;
+  width: 30%;
+  margin-bottom: 20px;
+}

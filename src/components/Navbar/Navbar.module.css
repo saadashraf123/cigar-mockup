@@ -1,0 +1,35 @@
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: #ffff;
+  /* gap: 35px; */
+}
+.nav-item-wrapper span {
+  font-size: 15px;
+  align-items: center;
+  padding: 5px 15px;
+}
+.logo-wrapper img {
+  width: 146px;
+  height: 120px;
+  margin-top: 25px;
+}
+
+.nav-actions-wrapper {
+  display: flex;
+  align-items: center;
+  color: #ffff;
+  gap: 24px;
+}
+
+.nav-item-wrapper > span:hover {
+  color: #d0ae6f;
+  background-color: #ffff;
+  cursor: pointer;
+  border-radius: 2px;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+  /* background: linear-gradient(to top, #100803 0%, #d0ae6f 100%); */
+  /* background: linear-gradient(to top, #fff000 0%, #000fff 100%); */
+  z-index: 99;
+}
+.main-wrapper {
+  position: relative;
+  background-image: url("../../assets/images/hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.main-wrapper::before {
+  content: "";
+  display: block;
+  background: linear-gradient(to top, transparent 0%, #100803 100%);
+  opacity: 0.05;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
