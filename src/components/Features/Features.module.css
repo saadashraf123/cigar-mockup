@@ -1,0 +1,23 @@
+.feature-wrapper {
+  /* background-color: #000; */
+  margin: 0;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-item {
+  display: flex;
+  justify-content: center;
+}
+.feature-item img {
+  width: 280px;
+  height: 160px;
+}
+
+@media screen and (max-width: 1312px) {
+  .feature-item img {
+    max-width: 100%;
+    height: calc(100% - 10px);
+  }
+}

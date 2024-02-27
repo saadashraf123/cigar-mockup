@@ -1,10 +1,15 @@
+import About from "./components/About";
+import Features from "./components/Features";
 import HeroSection from "./components/HeroSection";
-import NavBar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
       <HeroSection />
+      <div style={{ backgroundColor: "#000" }}>
+        <Features />
+        <About />
+      </div>
     </div>
   );
 }

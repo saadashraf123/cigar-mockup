@@ -1,11 +1,11 @@
 .navbar-wrapper {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
   align-items: center;
 }
 .nav-item-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   color: #ffff;
   /* gap: 35px; */
 }
@@ -13,6 +13,10 @@
   font-size: 15px;
   align-items: center;
   padding: 5px 15px;
+}
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
 }
 .logo-wrapper img {
   width: 146px;
@@ -23,6 +27,7 @@
 .nav-actions-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   color: #ffff;
   gap: 24px;
 }
